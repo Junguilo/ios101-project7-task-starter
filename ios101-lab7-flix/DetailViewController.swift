@@ -8,6 +8,7 @@ import NukeExtensions
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet weak var favoriteButton: UIButton!
     @IBOutlet weak var backdropImageView: UIImageView!
     @IBOutlet weak var posterImageView: UIImageView!
     @IBOutlet weak var posterImageShadowView: UIView!
@@ -20,13 +21,17 @@ class DetailViewController: UIViewController {
 
     // TODO: Add favorite button action
 
+    @IBAction func didTapFavoriteButton(_ sender: UIButton) {
+        sender.isSelected = !sender.isSelected
+    }
     var movie: Movie!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // TODO: Update favorite button selected state
-
+        favoriteButton.layer.cornerRadius = favoriteButton.frame.width / 2
+        
 
 
 

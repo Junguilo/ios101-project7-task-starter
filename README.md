@@ -1,20 +1,49 @@
-## Lab 6: Flix Detail
+# Project 7 - *Name of App Here*
 
-### Overview
+Submitted by: **June Eguilos**
 
-In this lab, you'll allow users to save their favorite movies and view them in a "favorites" list on a separate tab. To do this, you'll leverage *User Defaults* to save and retrieve movies from your app's local storage. Adding a tab bar to your app will be done using a *Tab Bar Controller*.
+**Name of your app** is an app that ... [TODO] 
 
-![00_completed_lab_exemplar](https://user-images.githubusercontent.com/11927517/233009243-292cead6-9a9c-4f0c-88df-d68f961f53df.gif)
+Time spent: **2** hours spent in total
+
+## Required Features
+
+The following **required** functionality is completed:
+
+- [x] App displays a list of tasks
+- [x] Users can add tasks to the list
+- [x] Session persists when application is closed and relaunched (tasks dont get deleted when closing app) 
+  - [x] Note: You have to quit the app, not minimize it, in order to see the persistence.
+- [x] Tasks can be deleted
+- [x] Users have a calendar view via navigation controller that displays tasks	
 
 
-### 🎯 Goals
+The following **additional** features are implemented:
 
-By the end of this lab you will be able to...
-- [ ] Set up a tab bar and multiple tabs using a *Tab Bar Controller*
-- [ ] Save, retrieve and delete data from local storage using *UserDefaults*
-- [ ] Create custom buttons styled for their various states
+- [x] Tasks can be toggled completed
+- [x] User can edit tasks by tapping on the task in the feed view
+- [ ] List anything else that you can get done to improve the app functionality!
 
-#### Required Features
+## Video Walkthrough
 
-- [ ] Users can toggle a *"Favorite"* button in the movie detail screen to save/delete a movie from their collection of favorite movies.
-- [ ] Users can view a scrolling list of their favorite movies on a *"Favorites"* tab.
+![](showcase.gif)
+
+## Notes
+
+Describe any challenges encountered while building the app.
+
+## License
+
+    Copyright [yyyy] [name of copyright owner]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
